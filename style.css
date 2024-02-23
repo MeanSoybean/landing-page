@@ -2,8 +2,79 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 192px 0px;
+}
+
+.dark-hero-background {
+    background-color: #1F2937;
+}
+
+.bright-hero-color {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.subtext, #social-media-links a {
+    color: #F9FAF8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-logo-text {
+    font-size: 24px;
+}
+
+#social-media-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 192px;
+    gap: 48px;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.hero-message {
+    font-size: 48px;
+    margin: 0;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: max-content;
+}
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
 }
 
 footer {
     margin-top: auto;
+    background-color: #1F2937;
 }
